@@ -33,7 +33,7 @@ class Main
                 p = s[i][0];
             }
         }
-        System.out.println("Maximum marks of first subject is of roll no:"+p);
+        System.out.println("Maximum marks of First subject is of roll no:"+p);
          max = s[0][2]; //Considering 1st value of second subject as maximum
         for(i=0,j=2;i<5;i++) //Fixing the value of column and only increasing the row number
         {
@@ -43,6 +43,6 @@ class Main
                 p = s[i][0];
             }
         }
-        System.out.println("Maximum marks of second subject is of roll no:"+p);
+        System.out.println("Maximum marks of Second subject is of roll no:"+p);
     }
 }
