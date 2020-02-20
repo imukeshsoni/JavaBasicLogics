@@ -1,0 +1,15 @@
+import java.io.*;
+class Handleexception
+{
+    public static void main(String args[])
+    {
+        try{
+        int d = 0;
+        a = 45/d;
+        System.out.println(a);
+            }catch(ArithmeticException e)
+            {e.printStackTrace();}
+            catch(ArrayIndexOutOfBOund aie){
+            air.printStackTrace();}
+    }
+}
